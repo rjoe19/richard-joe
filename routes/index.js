@@ -25,9 +25,10 @@ router.get('/', (req, res) => {
     }
     else  {
      console.log(tweets, response);
+    //  tweets = JSON.parse(tweets)
+     res.render('index', tweets)
     }
   });
-  res.render('index', JSON.parse(tweets))
 })
 
 module.exports = router
