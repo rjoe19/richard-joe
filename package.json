@@ -1,0 +1,17 @@
+{
+  "name": "richard",
+  "version": "1.0.0",
+  "description": "richard joe is powerful",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "josephquested",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "nodemon": "^1.11.0",
+    "templit": "^1.0.1"
+  }
+}
