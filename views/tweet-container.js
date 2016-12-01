@@ -1,13 +1,13 @@
 function render (data) {
  return `
    <div id="tweet-container">
-     ${renderTweets(data.tweets)}
+     ${renderTweets(data.statuses)}
    </div>
  `
 }
 
-function renderTweets (data.statuses) {
-   console.log('TESTING EACH TWEET', tweets)
+function renderTweets (data) {
+  //  console.log('TESTING EACH TWEET', tweet)
  var html = ''
  tweets.forEach((tweet) => {
    html += `
