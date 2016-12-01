@@ -24,8 +24,8 @@ router.get('/', (req, res) => {
       console.log('ERROR RETRIEVING TWEETS', error);
     }
     else  {
-     console.log('THIS IS THE RESPONSE', response)
-     console.log('THESE ARE THE TWEETS', tweets)
+    //  console.log('THIS IS THE RESPONSE', response)
+    //  console.log('THESE ARE THE TWEETS', tweets)
      res.render('index', tweets)
     }
   });

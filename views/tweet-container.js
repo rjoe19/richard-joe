@@ -6,7 +6,8 @@ function render (data) {
  `
 }
 
-function renderTweets (tweets) {
+function renderTweets (data.statuses) {
+   console.log('TESTING EACH TWEET', tweets)
  var html = ''
  tweets.forEach((tweet) => {
    html += `
